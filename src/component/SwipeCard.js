@@ -21,7 +21,7 @@ const SwipeCard = () => {
     shiftTime: shiftData.startTime + " to " + shiftData.endTime,
     shiftType: shiftData.shiftType,
     swipeTime: swipeStartTime,
-    doorAddress: "-",
+    doorAddress: "--",
   };
 
   const navigate = useNavigate();
